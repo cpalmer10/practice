@@ -10,12 +10,12 @@ package practice;
  * @author Chris
  */
 public class Practice {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String s1 = "Hello " + "Java " + "Class ";
+        StringBuffer sb =  new StringBuffer();
+        sb.append("Hello ").append("Java ").append("Class");
+        
+        s1 = sb.toString();
     }
     
 }
